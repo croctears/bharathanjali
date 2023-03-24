@@ -1,0 +1,1 @@
+- slider image size fix - center the larger images
