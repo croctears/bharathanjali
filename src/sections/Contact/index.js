@@ -7,7 +7,7 @@ export default class Contact extends Component {
         
 
         <div className='row'>
-          <div className='col-md-6 d-flex justify-content-center'>
+          <div className='col-md-6 d-flex flex-column justify-content-center'>
             <h1>Contact</h1>
 
             <p>Whether you have questions about our dance classes, enrollment process, performances, or any other aspect of our institution, we are here to help.</p>
