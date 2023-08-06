@@ -17,6 +17,11 @@ i {
 } */
 /*----------bootstrap-navbar-css------------*/
 
+@font-face {
+	font-family: namaskar;
+	src: url(./Samarkan-Normal1.ttf.woff);
+}
+
 .navbar {
     padding: 0px !important;
     font-family: 'Raleway', sans-serif;
@@ -25,13 +30,26 @@ i {
 }
 
 .navbar-logo{
-	padding: 15px;
+	padding: 0 !important;
 	color: white !important;
-    font-family: 'Lobster', cursive;
+    font-family: namaskar;
     font-size: 2em !important;
     text-transform: capitalize !important;
     font-weight: 500;
+	margin: 0;
 }
+
+.navbar-logo img {
+	position: absolute;
+	width: 100px;
+	top: 0px;
+	z-index: 999;
+}
+
+.navbar-logo span {
+	margin-left: 110px;
+}
+
 .navbar-mainbg{
 	background-color: #263238;
 	padding: 0px;

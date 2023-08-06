@@ -1,3 +1,8 @@
+#about {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
 .gurus-section img {
     border-radius: 50%;
 }
@@ -12,7 +17,7 @@
     margin-top: 57px;
 }
 
-.titleArea {
+#about .titleArea {
     display: table;
     left: -32px;
     margin: auto;
@@ -26,8 +31,8 @@
     width: auto;
 }
 
-.commonTittle {
-    color: #000000;
+#about .commonTittle {
+    color: #95a55e;
     font-size: 36px;
     letter-spacing: 10.8px;
     padding-bottom: 5px;
@@ -35,7 +40,7 @@
     font-weight: 700;
 }
 
-.subTitle {
+#about .subTitle {
     font-size: 12px;
     font-style: italic;
     text-transform: uppercase;
@@ -46,7 +51,7 @@
     color: #999999;
 }
 
-.guru-section-title {
+#about .guru-section-title {
     padding-left: 20px;
     position: relative;
 }

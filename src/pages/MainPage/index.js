@@ -11,6 +11,7 @@ export default function MainPage() {
       <SliderSection />
       <About />
       <Contact />
+      <div className='footer' style={{ marginTop: "50px"}} />
     </div>
   );
 }

@@ -1,4 +1,121 @@
 #contact {
     background: #263238 !important;
     color: white;
+    padding-bottom: 50px;
+    margin-top: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .studioContent {
+        width: 100%;
+    }
+}
+@media (min-width: 1400px) and (max-width: 2565px) {
+    .studioContent {
+        float: right;
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+.studioContent {
+    padding-left: 20px;
+    padding-right: 105px;
+    position: relative;
+}
+
+#contact .titleArea {
+    display: table;
+    left: -32px;
+    margin: auto;
+    position: absolute;
+    top: 90px;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: auto;
+}
+
+#contact .commonTittle {
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 10.8px;
+    padding-bottom: 5px;
+    color: #FBC02D;    
+}
+
+#contact .subTitle {
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    font-weight: 400;
+    font-family: 'Merriweather', serif;
+    padding-right: 12px;
+    color: #999999;
+}
+
+#contact .titleArea.reverse {
+    left: auto;
+    right: -85px;
+    top: 80px;
+}
+
+
+.contact-social-heading {
+    padding-left: 20px;
+    position: relative;
+}
+
+
+.contact-social-heading:before {
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    height: calc(100% - 8px);
+    width: 4px;
+    background: #FBC02D;
+    content: "";
+}
+
+/* #FBC02D */
+
+#contact .socialIcons i {
+    color: #FBC02D;
+}
+
+.off-white {
+    color: gray; 
+}
+
+.contact-button {
+    background-color: #FBC02D !important;
+    border-color: #FBC02D !important;
+    color: black !important;
+}
+
+
+.contact-button:hover {
+    background-color: #95a55e !important;
+    border-color: #95a55e !important;
+    color: #263238 !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 4px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0 !important;
 }
