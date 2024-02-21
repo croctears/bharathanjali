@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bharathanjali/static/css/main.1244d304.css",
+    "main.js": "/bharathanjali/static/js/main.26f3b30b.js",
+    "static/js/453.940f61b2.chunk.js": "/bharathanjali/static/js/453.940f61b2.chunk.js",
+    "static/media/3.jpg": "/bharathanjali/static/media/3.ba6d03838f1640a491bd.jpg",
+    "static/media/5.jpg": "/bharathanjali/static/media/5.8478505ec884ccb53333.jpg",
+    "static/media/1.jpg": "/bharathanjali/static/media/1.9800df41fc8a9dbaa9c1.jpg",
+    "static/media/4.jpg": "/bharathanjali/static/media/4.71c705c1df7c3ac762f3.jpg",
+    "static/media/2.jpg": "/bharathanjali/static/media/2.9d24ac9d4b35fab9946f.jpg",
+    "static/media/Samarkan-Normal1.ttf.woff": "/bharathanjali/static/media/Samarkan-Normal1.ttf.f6b4c9969d3512b9d4f1.woff",
+    "index.html": "/bharathanjali/index.html",
+    "main.1244d304.css.map": "/bharathanjali/static/css/main.1244d304.css.map",
+    "main.26f3b30b.js.map": "/bharathanjali/static/js/main.26f3b30b.js.map",
+    "453.940f61b2.chunk.js.map": "/bharathanjali/static/js/453.940f61b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1244d304.css",
+    "static/js/main.26f3b30b.js"
+  ]
+}
