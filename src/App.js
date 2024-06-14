@@ -1,7 +1,6 @@
 // importing pages
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import firebase from './firebase';
 import LoginForm from './components/Login/';
 import MainPage from './pages/MainPage';
 import ProtectedRoute from './components/Protect';
